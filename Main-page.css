@@ -3,7 +3,8 @@
     align-content: center;
     margin-left: auto;
     margin-right: auto;
-    max-height: 100px;
+    margin-bottom: 10px;
+    max-height: 175px;
 }
 
 .column1 {
@@ -50,14 +51,9 @@
 .buttonNavigate {
     border: black;
     color: saddlebrown;
-    margin-left: 5px;
-    margin-right: 5px;
+    margin-left: 1%;
+    margin-right: 2%;
     margin-top: 10px;
-    text-align: center;
-    text-decoration: none;
-    display: inline-block;
-    font-size: 16px;
-    alignment: top;
     max-width: 25%;
 }
 
@@ -65,6 +61,7 @@
 .column2 {
     float: left;
     width: 60%;
+    display:inline;
 }
 .column2Content {
     content: url("https://i.imgur.com/BxMYquE.png");
@@ -83,6 +80,20 @@
     display: table;
     clear: both;
 }
+.buttonRowLeft {
+    content: "";
+    display:inline-block;
+    margin-left: auto;
+    width: 49%;
+    float: left;
+}
+.buttonRowRight {
+    content: "";
+    display:inline-block;
+    width: 50%;
+    align-items: right;
+    float: right;
+}
 .commentSection {
     margin-top: 10px;
     margin-left: 5%;
@@ -91,6 +102,8 @@
     border-color: black;
     border-style: solid;
 }
+
+
 
 body {
     background: linear-gradient(90deg, #2b038b 50%, gainsboro 50%);
