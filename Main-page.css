@@ -1,0 +1,98 @@
+.header{
+    content: url(Kitsune-Logo-cropped.png);
+    align-content: center;
+    margin-left: auto;
+    margin-right: auto;
+    max-height: 100px;
+}
+
+.column1 {
+    float: left;
+    width: 20%;
+}
+
+.button {
+    background: transparent;
+    border: black;
+    color: saddlebrown;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    max-height: 100%;
+    max-width: 100%;
+}
+
+.buttonPanel {
+    content: url(Wooden-Button.png);
+    margin-top: 10px;
+    max-height: 100%;
+    max-width: 100%;
+}
+
+
+
+.buttonRight {
+    background-color: darkslategrey;
+    border-style: solid;
+    border: black;
+    color: whitesmoke;
+    margin-top: 10px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    content: url("Cover.png");
+    max-width:100%;
+    max-height:100%;
+}
+
+.buttonNavigate {
+    border: black;
+    color: saddlebrown;
+    margin-left: 5px;
+    margin-right: 5px;
+    margin-top: 10px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    alignment: top;
+    max-width: 25%;
+}
+
+
+.column2 {
+    float: left;
+    width: 60%;
+}
+.column2Content {
+    content: url("https://i.imgur.com/BxMYquE.png");
+    max-width: 100%;
+}
+.column3 {
+    margin-left: 1%;
+    float: left;
+    width: 19%;
+}
+
+.row {
+    content: "";
+    margin-left: auto;
+    margin-right: auto;
+    display: table;
+    clear: both;
+}
+.commentSection {
+    margin-top: 10px;
+    margin-left: 5%;
+    margin-right: 5%;
+    background-color: blanchedalmond;
+    border-color: black;
+    border-style: solid;
+}
+
+body {
+    background: linear-gradient(90deg, #2b038b 50%, gainsboro 50%);
+    background-size: cover;
+}
